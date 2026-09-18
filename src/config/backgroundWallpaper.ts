@@ -143,7 +143,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 导航栏配置
 		navbar: {
 			// 导航栏透明模式："semi" 半透明，"full" 完全透明，"semifull" 动态透明
-			transparentMode: "semifull",
+			transparentMode: "semi",
 			// 是否开启毛玻璃模糊效果，开启可能会影响页面性能，如果不开启则是半透明，请根据自己的喜好开启
 			enableBlur: true,
 			// 毛玻璃模糊度
@@ -153,9 +153,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		waves: {
 			enable: {
 				// 桌面端是否启用水波纹动画效果
-				desktop: false,
+				desktop: true,
 				// 移动端是否启用水波纹动画效果
-				mobile: false,
+				mobile: true,
 			},
 			// 是否允许用户通过控制面板切换水波纹动画
 			switchable: true,
@@ -178,9 +178,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用壁纸轮播；关闭时保持每次刷新随机显示一张
 			enable: true,
 			// 轮播切换间隔（毫秒）
-			interval: 5000,
+			interval: 4000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马
-			transitionEffect: "zoom",
+			transitionEffect: "fade",
 			// 是否允许用户通过控制面板切换壁纸轮播
 			switchable: true,
 		},

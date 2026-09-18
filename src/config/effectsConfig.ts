@@ -3,7 +3,7 @@ import type { MouseEffectsConfig, SakuraConfig } from "../types/effectsConfig";
 // 审判之剑鼠标特效配置
 export const mouseEffectsConfig: MouseEffectsConfig = {
 	// 总开关；桌面端使用剑形鼠标，触屏和减少动态效果模式保留系统鼠标
-	enable: true,
+	enable: false,
 	colors: {
 		primary: "#1aaef2",
 		secondary: "#ffffff",
@@ -47,7 +47,7 @@ export const sakuraConfig: SakuraConfig = {
 	switchable: true,
 
 	// 气泡数量
-	sakuraNum: 50,
+	sakuraNum: 10,
 
 	// 兼容原有设置字段；气泡动画始终循环
 	limitTimes: -1,

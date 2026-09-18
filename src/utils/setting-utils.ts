@@ -1149,7 +1149,7 @@ export function applyGradientEnabledToDocument(enabled: boolean): void {
 }
 
 // Hydro bubble effect functions (legacy Sakura names preserve stored settings)
-export const HYDRO_BUBBLE_COUNT_MIN = 10;
+export const HYDRO_BUBBLE_COUNT_MIN = 0;
 export const HYDRO_BUBBLE_COUNT_MAX = 100;
 export const HYDRO_BUBBLE_COUNT_STEP = 5;
 
