@@ -1,18 +1,18 @@
 ---
-title: 洛谷 P7167 Fountain 题解
-published: 2026-10-03
-description: '洛谷 P7167 Fountain 题解'
-image: 'images\41.jpg'
-tags: ["算法","单调栈","倍增","st表"]
+title: 洛谷 P3509 ZAB-Frog 题解
+published: 2026-10-04
+description: '洛谷 P3509 ZAB-Frog 题解'
+image: 'images\42.jpg'
+tags: ["算法","滑动窗口","倍增","st表"]
 category: '算法学习'
 draft: false 
 lang: 'zh-CN'
 pinned: false
 ---
 
-# 洛谷P7167 Fountain 题解
+# 洛谷 P3509 ZAB-Frog 题解
 
-链接：[洛谷P7187](https://www.luogu.com.cn/problem/P7167)
+链接：[洛谷P3509](https://www.luogu.com.cn/problem/P3509)
 
 ## 题目大意
 
